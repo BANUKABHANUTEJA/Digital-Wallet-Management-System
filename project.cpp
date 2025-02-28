@@ -44,8 +44,8 @@ int main() {
 
  sort(details.begin(),details.end(),validate);  
 
-    for(auto hi:details) {
-        cout<<hi.first<<" "<<hi.second<<'\n';
+    for(auto x:details) {
+        cout<<x.first<<" "<<x.second<<'\n';
     }
 
     return 0;
